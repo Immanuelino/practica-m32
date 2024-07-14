@@ -1,0 +1,67 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item, .cart-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img, .cart-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-item h3, .cart-item h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.product-item p, .cart-item p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.product-item button, .cart-item button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-item button:hover, .cart-item button:hover {
+  background-color: #0056b3;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart h2 {
+  text-align: center;
+  color: #333;
+}
